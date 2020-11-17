@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.2">
-			<file name="sources.xml" url="" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/BoksmanTheMighty/Zidurune/main/source.xml" />
 		</update>
 	</info>
 	<element name="Zidurune" type="Source" source="Core" id="ID_ZIDURUNE">
