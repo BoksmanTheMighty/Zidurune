@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Deities of Zidurune</name>
+		<description>Deities from the Player’s Handbook.</description>
+		<author url="">Boksman</author>
+		<update version="0.2">
+			<file name="deities.xml" url="" />
+		</update>
+	</info>
+	<element name="Helet" type="Deity" source="Zidurune" id="ID_BOKS_ZID_DEITY_HELET">
+		<description>
+			<p class="flavor">God of Order and Chaos</p>
+		</description>
+		<setters>
+			<set name="setting">Zidurune</set>
+			<set name="alignment">N</set>
+			<set name="domains">Order, Chaos</set>
+			<set name="symbol">Scale</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>God of Order and Chaos</description>
+		</sheet>
+	</element>
+	<element name="Belleross" type="Deity" source="Zidurune" id="ID_BOKS_ZID_DEITY_BELLEROSS">
+		<description>
+			<p class="flavor">Twin God of Blood</p>
+		</description>
+		<setters>
+			<set name="setting">Zidurune</set>
+			<set name="alignment">N</set>
+			<set name="domains">Love, War</set>
+			<set name="symbol">Bell Rose</set>
+			<set name="gender">male and female</set>
+		</setters>
+		<sheet>
+			<description>Twin God of Blood</description>
+		</sheet>
+	</element>
+	<element name="Setonis" type="Deity" source="Zidurune" id="ID_BOKS_ZID_DEITY_SETONIS">
+		<description>
+			<p class="flavor">God of the Void</p>
+		</description>
+		<setters>
+			<set name="setting">Zidurune</set>
+			<set name="alignment">E</set>
+			<set name="domains">Void</set>
+			<set name="symbol">Nothing</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>God of the Void</description>
+		</sheet>
+	</element>
+	<element name="Alidon" type="Deity" source="Zidurune" id="ID_BOKS_ZID_DEITY_ALIDON">
+		<description>
+			<p class="flavor">Bird God of the Sun</p>
+		</description>
+		<setters>
+			<set name="setting">Zidurune</set>
+			<set name="alignment">N</set>
+			<set name="domains">Sun, Moon</set>
+			<set name="symbol">Sun, Moon</set>
+			<set name="gender">male</set>
+		</setters>
+		<sheet>
+			<description>Bird God of the Sun</description>
+		</sheet>
+	</element>
+	<element name="Bundulus" type="Deity" source="Zidurune" id="ID_BOKS_ZID_DEITY_BUNDULUS">
+		<description>
+			<p class="flavor">God of Fire</p>
+		</description>
+		<setters>
+			<set name="setting">Zidurune</set>
+			<set name="alignment">N</set>
+			<set name="domains">Fire</set>
+			<set name="symbol">Flame</set>
+			<set name="gender">Male</set>
+		</setters>
+		<sheet>
+			<description>God of Fire</description>
+		</sheet>
+	</element>
+	<element name="Squndumbulo the Dream Wizard" type="Deity" source="Zidurune" id="ID_BOKS_ZID_DEITY_SQUNDUMBULO">
+		<description>
+			<p class="flavor">God of Dreams</p>
+		</description>
+		<setters>
+			<set name="setting">Zidurune</set>
+			<set name="alignment">NG</set>
+			<set name="domains">Dreams</set>
+			<set name="symbol">4 pointed star</set>
+			<set name="gender">female</set>
+		</setters>
+		<sheet>
+			<description>God of Dreams</description>
+		</sheet>
+	</element>
+</elements>

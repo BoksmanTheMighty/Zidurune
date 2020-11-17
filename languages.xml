@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Languages</name>
+		<update version="0.0.1">
+			<file name="languages.xml" url="" />
+		</update>
+	</info>
+
+	<!-- standard -->
+	<element name="Avian" type="Language" source="Zidurune" id="ID_LANGUAGE_AVIAN">
+		<supports>Standard</supports>
+		<description>
+			<p>A form of whistling or musical notation used by Avians in ancient times.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Avian</set>
+			<set name="script">Avian Notation</set>
+		</setters>
+	</element>
+</elements>

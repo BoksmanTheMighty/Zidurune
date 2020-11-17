@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Avian</name>
+		<update version="0.2">
+			<file name="race-avian.xml" url="" />
+		</update>
+	</info>
+
+	<element name="Avian" type="Race" source="Zidurune" id="ID_RACE_AVIAN">
+		<description>
+			<p class="flavor">Deep within the jungles of Quellivere lay an ancient race of birdmen, high in the treetops, gliding delicately from branch to branch, imbibed with a deep culture and golden heart of adventure.</p>
+			<h4>TAKING FLIGHT</h4>
+			<p>The Avians are a race of birdlike humanoid creatures who hail from the jungles of Quellivere. Their large, winglike arms give them enhanced mobility, making them faster and more aerodynamic. They live high in the trees, in huts constructed mostly from wood. On the ground level exists stone structures and larger buildings such as towers, castles, and blacksmith's shops. Some Non-avian creatures, such as Tabaxi or Humans, also reside on the ground level.</p>
+			<h4>WINGSPAN</h4>
+			<p>Avians stand at a similar height to Humans, 5 to 6 feet, and are generally 120 to 200 pounds. They can have a variety of colored feathers, though most avians have only one or two different colors. Beaks also vary, and are passed down from generation to generation. Some may have a beak like a pigeon, some like a toucan, duck, or pelican. They live for anywhere between 120 to 130 years, reaching adulthood in their 20s.</p>
+			<p class="indent">Avians have legs like that of a bird, arms in the fashion of wings, and feathers coating their bodies. Feather color and beaks are hereditary. Common feather colors include Red, Blue, Yellow, Orange, Green, and White. The winged arms, torso, legs, and head (The Primary Color) are typically one of these base colors, while the stomach is typically a lighter variation of the primary color. Feathers around the eyes and other detail areas (The Secondary Color) are typically a different color to the primary color, frequently Black or White.</p>
+			<h4>BIRDS OF A FEATHER</h4>
+			<p>Avians are generally aligned with good or neutral, have a strong sense of culture, and have a strong sense of adventure, sailing the high seas to discover far off lands and discover ancient treasures. Avians also cherish their families and lineage greatly, often keeping first-hand accounts of their lives in a large journal or set of journals passed down to their ancestors.</p>
+			<h4>RHYTHMIC PHONETICS</h4>
+			<p>Before Avians met other races from different continents and adopted common, they communicated in intricate whistles. In writing, their thoughts and ideas would be recorded as a series of musical notations. These traditions are passed down in a similar manner. Their names would also be communicated in this way. Due to this, Avians have two names; their Avian Whistle name, and their common name, which is typically human in origin.</p>
+			<h4>AVIAN TRAITS</h4>
+			<p>Avians are very individual, but every Avian has these similar traits.</p>
+			<p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Dexterity score increases by 2.</p>
+			<p class="indent"><strong><em>Age.</em></strong> Avians become adults at 20 years old.</p>
+			<p class="indent"><strong><em>Alignment.</em></strong> Avians are generally good or neutral.</p>
+			<p class="indent"><strong><em>Size.</em></strong> Avians are generally 5 to 6 feet tall. Your size will be Medium.</p>
+			<p class="indent"><strong><em>Speed.</em></strong> Your base walking speed is 35 ft.</p>
+			<p class="indent"><strong><em>Languages.</em></strong> You can speak, read, and write in both Common and Avian fluently. Avians often refer to each other in their bird names.</p>
+			<p class="indent"><strong><em>Subrace.</em></strong> Ancient divides among the elven people resulted in three main subraces: high elves, wood elves, and dark elves, who are commonly called drow. Choose one of these subraces. In some worlds, these subraces are divided still further (such as the sun elves and moon elves of the Forgotten Realms), so if you wish, you can choose a narrower subrace.</p>
+		</description>
+		<sheet display="false" />
+		<setters>
+      <set name="names" type="male">Ander, Blath, Bran, Frath, Geth, Lander, Luth, Malcer, Stor, Taman, Urth</set>
+      <set name="names" type="female">Amafrey, Betha, Cefrey, Kethra, Mara, Olga, Silifrey, Westra</set>
+      <set name="names" type="surname">Brightwood, Helder, Hornraven, Lackman, Stormwind, Windrivver</set>
+      <set name="names-format">{{name}} {{surname}}</set>
+      <set name="height" modifier="2d10">4'8"</set>
+      <set name="weight" modifier="2d4">110 lb.</set>
+    </setters>
+		<rules>
+			<stat name="dexterity" value="2" />
+			<stat name="innate speed" value="35" bonus="base" />
+			<grant type="Size" id="ID_SIZE_MEDIUM" />
+			<grant type="Language" id="ID_LANGUAGE_COMMON" />
+			<grant type="Language" id="ID_LANGUAGE_AVIAN" />
+		</rules>
+	</element>
+</elements>
