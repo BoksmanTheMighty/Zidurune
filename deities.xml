@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Deities of Zidurune</name>
-		<description>Deities from the Player’s Handbook.</description>
+		<description>Deities from the Zidurune.</description>
 		<author url="">Boksman</author>
 		<update version="0.2">
 			<file name="deities.xml" url="" />
