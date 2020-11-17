@@ -5,7 +5,7 @@
 		<description>Deities from the Zidurune.</description>
 		<author url="">Boksman</author>
 		<update version="0.2">
-			<file name="deities.xml" url="" />
+			<file name="deities.xml" url="https://raw.githubusercontent.com/BoksmanTheMighty/Zidurune/main/deities.xml" />
 		</update>
 	</info>
 	<element name="Helet" type="Deity" source="Zidurune" id="ID_BOKS_ZID_DEITY_HELET">
