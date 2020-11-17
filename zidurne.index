@@ -1,0 +1,16 @@
+ 	<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Zidurune</name>
+		<description>Content of Zidurune</description>
+		<author url="">Boksman</author>
+		<update version="0.1">
+			<file name="zidurune.index" url="" />
+		</update>
+	</info>
+	<files>
+		<file name="deities.xml" url="https://raw.githubusercontent.com/BoksmanTheMighty/Zidurune/main/deities.xml" />
+		<file name="languages.xml" url="https://raw.githubusercontent.com/BoksmanTheMighty/Zidurune/main/languages.xml" />
+		<file name="race-avian.xml" url="https://raw.githubusercontent.com/BoksmanTheMighty/Zidurune/main/race-avian.xml" />
+	</files>
+</index>
