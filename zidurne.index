@@ -4,7 +4,7 @@
 		<name>Zidurune</name>
 		<description>Content of Zidurune</description>
 		<author url="">Boksman</author>
-		<update version="0.1">
+		<update version="0.2">
 			<file name="zidurune.index" url="https://raw.githubusercontent.com/BoksmanTheMighty/Zidurune/main/zidurne.index" />
 		</update>
 	</info>
