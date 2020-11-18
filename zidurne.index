@@ -12,5 +12,6 @@
 		<file name="deities.xml" url="https://raw.githubusercontent.com/BoksmanTheMighty/Zidurune/main/deities.xml" />
 		<file name="languages.xml" url="https://raw.githubusercontent.com/BoksmanTheMighty/Zidurune/main/languages.xml" />
 		<file name="race-avian.xml" url="https://raw.githubusercontent.com/BoksmanTheMighty/Zidurune/main/race-avian.xml" />
+		<file name="items-wondrous.xml" url="https://raw.githubusercontent.com/BoksmanTheMighty/Zidurune/main/items-wondrous.xml" />
 	</files>
 </index>
